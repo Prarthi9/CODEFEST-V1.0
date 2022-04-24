@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head><title>menu</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+		body{
+			font-family: 'Poppins',sans-serif;
+			background-color: #827B60;
+		}
+		.N{
+      display: flex;
+      justify-content:center; 
+      margin: -29x;
+      float: left;
+    }
+    .N ul li{
+      display: inline-block;
+      width:50px;
+      height: 50px;
+      /*background-color: none;*/
+      margin: auto 20px;
+      box-shadow: 3px 3px 10px gray,
+      -4px -4px 10px white;
+      text-align: center;
+      line-height: 50px;
+      font-size: 25px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+   .N ul li .fa:hover{color: white;text-align: center;}
+    .N ul li .fa{font-size: 25px;line-height: 50px;}   
+   
+    .N ul li a {
+      position: relative;
+      display:block;
+      width: 50px;
+      height: 50px;
+      text-align:center;
+      background-color:#FFFFCC;
+      color: black;
+      transition: .6%;
+      box-shadow: 0 5px 4px rgba(0,0,0,.5);
+      border-radius: 50%;
+      background-color: beige;
+    }
+     .N ul li a:hover{transform: translate(0,-10px);}
+     .N ul li a:hover{background-color: #ff6600;}
+		.A{
+			width: 1200px;
+			margin: 20px auto;
+		}
+		.title{
+			text-align: center;
+			margin-bottom: 60px;
+		}
+		.title h4{
+			text-transform:capitalize;
+			font-size: 36px;
+			position: relative;
+			display: inline-block;
+			padding-bottom: 5px;
+			 color: #7FFFD4;
+        
+		}
+		.title  h4 span{
+			display: block;
+			font-size:18px;
+			margin-bottom:-10px;
+			font-style: italic;
+			color: #77B7D7;
+		}
+		.title h4:before{
+			position: absolute;
+			content: "";
+			width: 100px;
+			height: 5px;
+			background-color: ;
+			left: 50%;
+			bottom: 0;
+			transform: translateX(-50%);
+		
+		}
+		.menu{
+			display:flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+		}
+		.single-menu{
+			flex-basis: 580px;
+			margin-bottom: 40px;
+			padding-bottom: 40px;
+			border-bottom: 1px solid #ddd;
+		}
+		.single-menu img{
+			height: 
+			width: ;
+			max-width: 150px;
+			margin-right: 30px;
+			border-radius: 50%;
+			border: 1px solid white;
+			padding: 3px;
+			transition: .5s;
+		}
+		.single-menu h4{
+			text-transform: capitalize;
+			font-size: 22px;
+			border-bottom: 1px dashed #98FF98;
+			margin-bottom: 5px;
+			padding-bottom: 5px;
+			color: PINK;
+		}
+		.single-menu h4 span{
+			float: right;
+			color: #50C878;
+			font-style: italic;
+		}
+		.single-menu:nth-child(5),.single-menu:nth(6){
+			border-bottom: 0;
+		}
+		.single-menu{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+
+		}
+		.single-menu:hover img{
+			border-radius: 0;
+		}
+	</style>
+</head>
+<body>
+	 <div class="N">
+
+  <ul>  <li><a href="restaurant.html" ><i class="fa fa-home"></i></a></li></ul>
+</div>
+
+<div class="A">
+	<div class="title">
+		<h4><span>EAT FRESH ,GO FRESH</span> menu</h4>
+	</div>
+<div class="menu">
+	<div class="single-menu">
+		<img src="https://thumbs.dreamstime.com/b/gourmet-tasty-italian-penne-pasta-plate-close-up-spicy-tomato-herbs-white-served-top-wooden-table-58667798.jpg" >
+		<div class="menu-content">
+			<h4>pasta <span>₹150</span></h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim ultricies nisi.</p>
+</div>
+</div>
+<div class="single-menu">
+		<img src="https://i0.wp.com/vegecravings.com/wp-content/uploads/2021/02/Mayonnaise-Sandwish-Recipe-Step-By-Step-Instructions-scaled.jpg?fit=2560%2C1890&quality=65&strip=all&ssl=1" ><div class="menu-content">
+			<h4 >sandwitch<span>₹200</span></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim ultricies nisi.</p>
+		</div>
+	</div>
+	<div class="single-menu">
+		<img src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/11/whole-grain-pancake-stack.jpg" ><div class="menu-content">
+			<h4>pan cake<span>₹200</span></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim ultricies nisi.</p>
+		</div>
+	</div>
+	<div class="single-menu">
+		<img src="https://images.indulgexpress.com/uploads/user/imagelibrary/2021/3/13/original/sizzlers.jpg?w=400&dpr=2.6" ><div class="menu-content">
+			<h4>sizzler <span>₹400</span></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim ultricies nisi</p>
+		</div>
+	</div>
+	<div class="single-menu">
+		<img src="https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/5:4/w_3129,h_2503,c_limit/Smashburger-recipe-120219.jpg" >
+			<div class="menu-content"><h4>burger<span>₹120</span></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim ultricies nisi</p>
+		</div>
+	</div>
+	<div class="single-menu">
+		<img src="https://hips.hearstapps.com/hmg-prod/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png" ><div class="menu-content">
+			<h4>smoothie <span>₹250</span></h4><p></p>
+		</div>
+	</div>
+<div class="single-menu">
+		<img src="https://i.ndtvimg.com/i/2017-10/tacos_620x350_81508846024.jpg" >
+		<div class="menu-content"><h4>tacos<span>₹160</span></h4>
+		</div>
+	</div>
+<div class="single-menu">
+		<img src="https://t3.ftcdn.net/jpg/03/07/52/04/360_F_307520459_rhZkE6zFkM3V5gxaI8Wfb4CVuzQmF0Jx.jpg" ><div class="menu-content">
+			<h4>oreo shake<span>₹150</span></h4>
+		</div>
+	</div>
+<div class="single-menu">
+		<img src="https://media.istockphoto.com/photos/waffles-with-fruit-and-maple-syrup-on-a-marble-counter-picture-id185266029?k=20&m=185266029&s=612x612&w=0&h=Tms_IvrEGK0W9oWnno2rZ8e_GBAOyT_Ug0HN9qJNlVY=" >
+			<div class="menu-content"><h4>waffle<span>₹300</span></h4>
+		</div>
+	</div>
+	<div class="single-menu">
+		<img src="https://images.herzindagi.info/image/2020/Jun/chocolate-parle-g-ice-cream.jpg" >
+			<div class="menu-content"><h4>ice cream<span>₹60</span></h4>
+		</div>
+	</div>
+
+</div>
+</div>
+</body>
+</html>
